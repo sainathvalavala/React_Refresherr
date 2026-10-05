@@ -1,0 +1,23 @@
+/* CSS Modules: any file ending in .module.css has LOCAL class names. Vite
+   renames .alert to something unique like ._alert_x7f2a_1, so it can never
+   clash with another .alert class elsewhere in the app. */
+.alert {
+  padding: 10px 14px;
+  border-left: 4px solid;
+  border-radius: 0 8px 8px 0;
+}
+
+.info {
+  border-color: steelblue;
+  background: rgba(70, 130, 180, 0.12);
+}
+
+.success {
+  border-color: seagreen;
+  background: rgba(46, 139, 87, 0.12);
+}
+
+.danger {
+  border-color: tomato;
+  background: rgba(255, 99, 71, 0.12);
+}

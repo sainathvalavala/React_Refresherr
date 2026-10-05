@@ -1,0 +1,5 @@
+# Dependencies (installed with npm install; never committed)
+node_modules/
+
+# Claude Code project instructions (kept local only)
+CLAUDE.md

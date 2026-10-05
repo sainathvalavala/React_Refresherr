@@ -1,0 +1,16 @@
+{
+  // Only for topic 26: type-checks the .ts/.tsx files with `npm run typecheck`.
+  // Vite itself just strips the types when it serves or builds them.
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": ["vite/client"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
